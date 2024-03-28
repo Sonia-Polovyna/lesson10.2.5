@@ -1,0 +1,90 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+.sprite {
+    width: 46px;
+    height: 44px;
+    background: url('../images/sp.gif');
+}
+.sprite:hover {
+    background: url('../images/sp.gif') 0 44px;
+}
+.arrow_left {
+    width: 43px;
+    height: 44px;
+    background: url('../images/sp.gif') 87px 0;
+}
+.arrow_left:hover {
+    width: 43px;
+    height: 44px;
+    background: url('../images/sp.gif') 87px 44px;
+}
+.arrow_right {
+    width: 43px;
+    height: 44px;
+    background: url('../images/sp.gif') 43px 0;
+}
+.arrow_right:hover {
+    width: 43px;
+    height: 44px;
+    background: url('../images/sp.gif') 43px 44px;
+}
+*/
+.main {
+    width: 300px;
+    height: 700px;
+    border: 1px solid red;
+
+}
+.main>header {
+    background-color: red;
+    font-family: Arial;
+    color: whitesmoke;
+    /*text-align: center;*/
+    padding: 10px 10px 10px 10px;
+}
+.adverst {
+    margin: 10px;
+}
+.block-tittle>img {
+    width: 35px;
+    border-radius: 5px;
+}
+.block-tittle>a {
+    margin: -5px 0 ;
+    position: relative;
+    bottom: 11px;
+    left: 1px;
+}
+.block-tittle>span {
+    position: relative;
+    bottom: 11px;
+    left: 30px;
+    color: blue;
+    padding: 10px;
+    border-radius: 1px solid blue;
+}
+p {
+    font-family: arial;
+    font-size: 14px;
+    margin-top: 0;
+}
+span.text1 {
+    font-weight: bold;
+    color: rgb(227, 149, 47);
+    font-family: Arial;
+    font-size: 14px;
+}
+span.text2 {
+    color: rgb(204, 194, 182);
+    font-family: Arial;
+    font-size: 12px;
+}
+a[href*="jackhenry"] {
+    flex-basis: 100%;
+}
+.jackhenry {
+    display: flex;
+}
